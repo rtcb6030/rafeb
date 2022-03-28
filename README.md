@@ -1,0 +1,1 @@
+<script src="TemplateData/UnityProgress.js"></script> <script src="TemplateData/unityloader41.js"></script> <script> var gameInstance = UnityLoader.instantiate("gameContainer", "Build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } }); </script> <title>Rafe_Barratt</title>
